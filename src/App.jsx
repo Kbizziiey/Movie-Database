@@ -46,9 +46,9 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 p-4 sm:p-6 md:p-8">
+    <div className="min-h-screen bg-cyan-600 p-4 sm:p-6 md:p-8">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4">Movie Search</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 bg-amber-300">Movie Database</h1>
         <SearchBar
           query={query}
           setQuery={setQuery}

@@ -11,7 +11,7 @@ export default function SearchBar({ query, setQuery, onSearch, loading }) {
             />
             <button
                 type="submit"
-                className="px-4 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 disabled:opacity-60"
+                className="px-4 py-3 bg-red-600 text-white rounded-lg hover:bg-indigo-700 disabled:opacity-60"
                 disabled={loading}
             >
             {loading ? 'Searching...' : 'Search'}

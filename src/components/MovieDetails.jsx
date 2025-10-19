@@ -13,10 +13,10 @@ return (
             alt={movie.Title}
             className="w-full h-auto rounded mb-3"
         />
-        <p className="text-sm text-gray-700 mb-2">{movie.Plot}</p>
-        <p className="text-sm text-gray-600">Director: {movie.Director}</p>
-        <p className="text-sm text-gray-600">Actors: {movie.Actors}</p>
-        <p className="text-sm text-gray-600">IMDB Rating: {movie.imdbRating}</p>
+        <p className="text-sm text-green-600 mb-2">{movie.Plot}</p>
+        <p className="text-sm text-gray-500">Director: {movie.Director}</p>
+        <p className="text-sm text-red-500">Actors: {movie.Actors}</p>
+        <p className="text-sm text-yellow-500">IMDB Rating: {movie.imdbRating}</p>
         <button
             onClick={onClose}
             className="mt-3 px-3 py-1 bg-gray-100 rounded hover:bg-gray-200 text-sm"
